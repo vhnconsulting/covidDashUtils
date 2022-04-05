@@ -20,7 +20,7 @@ tablerNavMenuDrop <- function(..., text = NULL, icon = NULL) {
       `data-auto-close` = "outside",
       role = "button",
       `aria-expanded` = "false",
-      tablerIcon(name = icon, lib = "feather"),
+      tablerDash::tablerIcon(name = icon, lib = "feather"),
       shiny::tags$span(
         class = "nav-link-title",
         text
@@ -149,7 +149,7 @@ tablerCardZoomable <- function(..., title = NULL, options = NULL, footer = NULL,
               href = "#",
               class = "card-options-collapse",
               `data-toggle` = "card-collapse",
-              tablerIcon(name = "chevron-up", lib = "feather")
+              tablerDash::tablerIcon(name = "chevron-up", lib = "feather")
             )
           },
           if (zoomable) {
@@ -157,7 +157,7 @@ tablerCardZoomable <- function(..., title = NULL, options = NULL, footer = NULL,
               href = "#",
               class = "card-options-fullscreen",
               `data-toggle` = "card-fullscreen",
-              tablerIcon(name = "maximize", lib = "feather")
+              tablerDash::tablerIcon(name = "maximize", lib = "feather")
             )
           },
           if (closable) {
@@ -165,7 +165,7 @@ tablerCardZoomable <- function(..., title = NULL, options = NULL, footer = NULL,
               href = "#",
               class = "card-options-remove",
               `data-toggle` = "card-remove",
-              tablerIcon(name = "x", lib = "feather")
+              tablerDash::tablerIcon(name = "x", lib = "feather")
             )
           }
         )
@@ -183,7 +183,7 @@ tablerCardZoomable <- function(..., title = NULL, options = NULL, footer = NULL,
 
 #' overwrite default tablerDashBody
 #'
-#' @param ...
+#' @param ...element to put inside Dash body
 #'
 #' @export
 #'

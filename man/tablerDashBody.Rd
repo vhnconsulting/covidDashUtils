@@ -7,7 +7,7 @@
 tablerDashBody(...)
 }
 \arguments{
-\item{...}{}
+\item{...element}{to put inside Dash body}
 }
 \description{
 overwrite default tablerDashBody
