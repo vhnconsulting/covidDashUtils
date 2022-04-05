@@ -1,0 +1,36 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# covidDashUtils
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of covidDashUtils is to ...
+
+## Installation
+
+You can install the development version of covidDashUtils from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("JMPivette/covidDashUtils")
+```
+
+## Description
+
+This package is still experimental and provides utils functions for my Covid Dashboards packages.
+
+It also has modified forest plot fucntions from ggforestplot
