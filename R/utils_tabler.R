@@ -61,6 +61,8 @@ tablerNavMenuDropItem <- function(..., tabName = NULL){
 #' @param src logo image source (displayed on the left side)
 #' @param navMenu Slot for tablerNavMenu
 #'
+#' @importFrom shiny tags
+#'
 #' @export
 
 tablerDashNavCondensed <- function(id, ..., src = NULL, navMenu = NULL) {
@@ -183,7 +185,7 @@ tablerCardZoomable <- function(..., title = NULL, options = NULL, footer = NULL,
 
 #' overwrite default tablerDashBody
 #'
-#' @param ...element to put inside Dash body
+#' @param ... element to put inside Dash body
 #'
 #' @export
 #'
