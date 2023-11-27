@@ -300,7 +300,7 @@ tablerDashPage <- function(navbar = NULL, body = NULL,
       shiny::tags$title(title)
     ),
     # Body
-    addDeps(
+    tablerDash:::addDeps(
       shiny::tags$body(
         class = NA,
         # set up a time-out for the preloader
