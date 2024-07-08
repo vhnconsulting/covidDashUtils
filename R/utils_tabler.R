@@ -249,6 +249,8 @@ tablerDashPage <- function(navbar = NULL, body = NULL,
 
   footer <- if (enable_preloader) {
     shiny::tagAppendAttributes(footer, style = "visibility: hidden;")
+  } else {
+    footer
   }
 
   # preloader
