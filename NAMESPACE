@@ -3,6 +3,7 @@
 export(forestplot)
 export(tablerCardZoomable)
 export(tablerDashBody)
+export(tablerDashFooter)
 export(tablerDashNavCondensed)
 export(tablerDashPage)
 export(tablerNavMenuDrop)
